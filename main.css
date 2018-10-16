@@ -9,32 +9,6 @@ html, body {
   margin: 0px;
   background-color: black;
   font-family: "rounded-mplus-1p-light";
-
-}
-div#button-container {
-display: flex;
-
-}
-button.but {
-  color: white;
-  font-size: 30px;
-  background-color: black;
-  margin: none;
-  padding: none;
-  display: inline-block;
-  text-align: center;
-  height:50px;
-  width:33%;
-}
-button.but:active {
-  outline: 0;
-  background-color: rgb(30,40,30);
-  border-color: 0px;
-}
-button.but:focus {
-  outline: 0;
-  background-color: black;
-  border-color: 0px;
 }
 canvas {
   width: 100%;
