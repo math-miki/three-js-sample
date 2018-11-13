@@ -55,9 +55,10 @@ window.onload = function() {
   let count = 0;
   let frame = 0;
   var animate = function() {
+    requestAnimationFrame( animate );
     frame+=1;
     if(frame%6 != 0) { return; }
-    requestAnimationFrame( animate );
+    
     for(let y=-(Yc-1)/2; y<=(Yc-1)/2; y++) {
       for(let x=-(Xc-1)/2; x<=(Xc-1)/2; x++) {
         const i = (y+(Yc-1)/2)*Xc+(x+(Xc-1)/2)
