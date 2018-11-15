@@ -68,8 +68,11 @@ window.onload = function() {
 
   camera.position.z = 6;
   let count = 0;
+//  let frame = 0;
   var animate = function() {
     requestAnimationFrame( animate );
+//    frame+=1;
+//    if( frame%10!=0) { return; }
       if(mov) {
       for(let y=-(Yc-1)/2; y<=(Yc-1)/2; y++) {
         for(let x=-(Xc-1)/2; x<=(Xc-1)/2; x++) {
